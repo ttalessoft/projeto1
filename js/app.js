@@ -1,4 +1,6 @@
-const x = 1;
-const y = 2;
+import $ from 'jquery';
+import _ from 'lodash';
 
-console.log(x - y);
+const dif = _.difference([88, 1, 33, 4, 112], [4, 0, 44, 5, 112, 6]);
+
+console.log(dif);
